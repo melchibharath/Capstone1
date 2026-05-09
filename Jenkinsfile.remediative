@@ -8,7 +8,7 @@ pipeline {
         AZURE_TENANT_ID = credentials('AZURE_TENANT_ID')
         
         // Path to your Python executable
-        PYTHON_EXE = "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/python.exe"
+        PYTHON_EXE = "C:/Program Files/python.exe"
     }
 
     stages {
